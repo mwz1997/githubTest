@@ -1,0 +1,44 @@
+﻿  FileName.cpp
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(76,28): error C2143: syntax error: missing ')' before 'if'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(76,28): error C2143: syntax error: missing ';' before 'if'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(76,28): error C2761: 'void tree::InOrderT(node *)': redeclaration of member is not allowed
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(76,28): error C2059: syntax error: 'if'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(77,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(77,11): error C2065: 'p': undeclared identifier
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(78,7): error C2143: syntax error: missing ';' before '<<'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(78,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(78,7): error C2059: syntax error: '<<'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(79,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(79,2): error C2374: 'InOrderT': redefinition; multiple initialization
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(77,2): message : see declaration of 'InOrderT'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(79,11): error C2065: 'p': undeclared identifier
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(80,1): error C2059: syntax error: '}'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(80,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(81,49): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(81,49): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(101,47): error C2556: 'std::pair<node *,node *> tree::InorderSort(node *)': overloaded function differs only by return type from 'void tree::InorderSort(node *)'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(29,7): message : see declaration of 'tree::InorderSort'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(101,26): error C2371: 'tree::InorderSort': redefinition; different basic types
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(29,7): message : see declaration of 'tree::InorderSort'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(103,24): error C2065: 'InorderSort': undeclared identifier
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(103,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::pair<node *,node *>'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(103,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(104,24): error C2065: 'InorderSort': undeclared identifier
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(104,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::pair<node *,node *>'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(104,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(123,23): error C2039: 'p': is not a member of 'node'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(7,7): message : see declaration of 'node'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(123,2): error C2660: 'tree::IL_helper': function does not take 2 arguments
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(117,12): message : see declaration of 'tree::IL_helper'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(123,2): message : while trying to match the argument list '(const std::initializer_list<int>, const int *)'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(124,3): error C2059: syntax error: 'if'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(125,12): error C2065: 'p': undeclared identifier
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(126,8): error C2872: 'cout': ambiguous symbol
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(78,2): message : could be 'int cout'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\iostream(40,75): message : or       'std::ostream std::cout'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(126,11): error C2065: 'p': undeclared identifier
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(127,12): error C2065: 'p': undeclared identifier
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(129,1): error C2059: syntax error: '}'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(129,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(137,12): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mawenzhe\Desktop\githubTest\04.13\04.13\FileName.cpp(137,12): error C2447: '{': missing function header (old-style formal list?)
